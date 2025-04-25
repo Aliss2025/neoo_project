@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/neoo_project/static/css/main.102ef2e8.css",
+    "main.js": "/neoo_project/static/js/main.c7eaa5d5.js",
+    "static/js/488.e718941c.chunk.js": "/neoo_project/static/js/488.e718941c.chunk.js",
+    "index.html": "/neoo_project/index.html",
+    "main.102ef2e8.css.map": "/neoo_project/static/css/main.102ef2e8.css.map",
+    "main.c7eaa5d5.js.map": "/neoo_project/static/js/main.c7eaa5d5.js.map",
+    "488.e718941c.chunk.js.map": "/neoo_project/static/js/488.e718941c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.102ef2e8.css",
+    "static/js/main.c7eaa5d5.js"
+  ]
+}
