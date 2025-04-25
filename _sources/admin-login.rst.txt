@@ -1,0 +1,28 @@
+Admin Login
+===========
+
+**Endpoint:** `/admin/login`
+
+**Method:** `POST`
+
+**Description:**
+
+Authenticate an admin user using username and password.
+
+**Request Example:**
+
+.. code-block:: json
+
+    {
+        "username": "admin",
+        "password": "admin123"
+    }
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "status": "success",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    }

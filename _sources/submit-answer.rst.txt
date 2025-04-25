@@ -1,0 +1,28 @@
+Submit Answer
+=============
+
+**Endpoint:** `/submit-answer`
+
+**Method:** `POST`
+
+**Description:**
+
+This endpoint submits the user's answer for a quiz question.
+
+**Request Body Example:**
+
+.. code-block:: json
+
+    {
+        "quiz_id": 1,
+        "answer": "Bangkok"
+    }
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "correct": true,
+        "explanation": "Bangkok is the capital of Thailand."
+    }

@@ -1,0 +1,15 @@
+Authentication API
+==================
+
+Login
+-----
+
+**POST /login**  
+เข้าสู่ระบบด้วย username และ password  
+(รายละเอียดเหมือนใน backend.rst ก่อนหน้านี้)
+
+Check Session
+-------------
+
+**GET /check-session**  
+ตรวจสอบ session ที่ยัง active

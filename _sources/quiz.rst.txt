@@ -1,0 +1,25 @@
+Quiz
+====
+
+**Endpoint:** `/quiz`
+
+**Method:** `GET`
+
+**Description:**
+
+This endpoint returns a list of quiz questions for the authenticated user.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "quiz": [
+            {
+                "id": 1,
+                "question": "What is the capital of Thailand?",
+                "choices": ["Bangkok", "Chiang Mai", "Phuket"],
+                "answer": null
+            }
+        ]
+    }

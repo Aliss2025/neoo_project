@@ -1,0 +1,33 @@
+Admin - User List
+=================
+
+**Endpoint:** `/admin/users`
+
+**Method:** `GET`
+
+**Description:**
+
+Get a list of all registered users.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "users": [
+            {
+                "id": 42,
+                "name": "Neoo",
+                "email": "neoo@example.com",
+                "role": "student",
+                "active": true
+            },
+            {
+                "id": 43,
+                "name": "John",
+                "email": "john@example.com",
+                "role": "teacher",
+                "active": false
+            }
+        ]
+    }

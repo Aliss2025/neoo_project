@@ -1,0 +1,23 @@
+API Overview
+============
+
+This document provides a high-level overview of all available endpoints in the Learning App API.
+
+User Endpoints
+--------------
+
+- `POST /auth/login` — User login
+- `GET /dashboard` — Get dashboard summary
+- `GET /lessons` — Get all lessons
+- `GET /lessons/<lesson_id>` — Get specific lesson
+- `GET /quiz/<lesson_id>` — Get quiz for lesson
+- `POST /submit-answer` — Submit answers
+- `GET /progress` — Track user progress
+- `POST /feedback` — Submit feedback
+
+Admin Endpoints
+---------------
+
+- `POST /admin/login` — Admin login
+- `GET /admin/users` — List all users
+- `GET /admin/reports` — Admin dashboard/reporting

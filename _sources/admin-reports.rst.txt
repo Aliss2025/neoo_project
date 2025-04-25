@@ -1,0 +1,31 @@
+Admin Reports
+=============
+
+**Endpoint:** `/admin/reports`
+
+**Method:** `GET`
+
+**Description:**
+
+Get summarized learning reports for all users.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "reports": [
+            {
+                "user_id": 42,
+                "completed_lessons": 10,
+                "average_score": 92,
+                "feedback_count": 5
+            },
+            {
+                "user_id": 99,
+                "completed_lessons": 4,
+                "average_score": 71,
+                "feedback_count": 2
+            }
+        ]
+    }

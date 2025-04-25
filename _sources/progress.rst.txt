@@ -1,0 +1,32 @@
+User Progress
+=============
+
+**Endpoint:** `/progress`
+
+**Method:** `GET`
+
+**Description:**
+
+Fetch the progress data of the currently logged-in user.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "user_id": 42,
+        "progress": [
+            {
+                "lesson_id": 1,
+                "completed": true,
+                "score": 85,
+                "last_accessed": "2025-04-21T14:30:00Z"
+            },
+            {
+                "lesson_id": 2,
+                "completed": false,
+                "score": null,
+                "last_accessed": "2025-04-20T11:00:00Z"
+            }
+        ]
+    }

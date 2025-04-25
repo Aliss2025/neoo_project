@@ -1,0 +1,48 @@
+Backend API
+===========
+
+Login
+-----
+
+**Endpoint:** ``POST /login``  
+**Description:** เข้าสู่ระบบด้วย username และ password  
+**Request body:**
+
+.. code-block:: json
+
+    {
+      "username": "user1",
+      "password": "1234"
+    }
+
+**Response:**
+
+.. code-block:: json
+
+    {
+      "token": "..."  // token ใหม่หลังเข้าสู่ระบบสำเร็จ
+    }
+
+Dashboard
+---------
+
+**Endpoint:** ``GET /dashboard``  
+**Headers:** ``Authorization: Bearer <token>``  
+**Description:** ดึงข้อมูลสำหรับหน้าแดชบอร์ดของผู้ใช้  
+**Response:**
+
+.. code-block:: json
+
+    {
+      "welcome": "ยินดีต้อนรับ user1",
+      "expiresIn": "30 วัน",
+      "options": ["เรียนรู้ภาษา", "เลือกระดับ", "เลือกรูปแบบการเรียน"]
+    }
+
+Check Session
+-------------
+
+**Endpoint:** ``GET /check-session``  
+**Headers:** ``Authorization: Bearer <token>``  
+**Description:** ตรวจสอบว่า session ยังใช้งานได้อยู่หรือไม่  
+**Response:** ``200 OK`` หรือ ``401 Unauthorized``

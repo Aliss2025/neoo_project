@@ -1,0 +1,20 @@
+Dashboard
+=========
+
+**Endpoint:** `/dashboard`
+
+**Method:** `GET`
+
+**Description:**
+
+Returns dashboard data for the authenticated user.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "user": "Aliss",
+        "lessons_completed": 5,
+        "score": 95
+    }

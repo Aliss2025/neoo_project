@@ -1,0 +1,31 @@
+Lessons
+=======
+
+**Endpoint:** `/lessons`
+
+**Method:** `GET`
+
+**Description:**
+
+This endpoint returns a list of learning lessons available for the user.
+
+**Response Example:**
+
+.. code-block:: json
+
+    {
+        "lessons": [
+            {
+                "id": 1,
+                "title": "Introduction to AI",
+                "description": "This lesson explains the basics of artificial intelligence.",
+                "video_url": "https://example.com/videos/intro-ai"
+            },
+            {
+                "id": 2,
+                "title": "How Neural Networks Work",
+                "description": "An overview of how neural networks process data.",
+                "video_url": "https://example.com/videos/neural-networks"
+            }
+        ]
+    }

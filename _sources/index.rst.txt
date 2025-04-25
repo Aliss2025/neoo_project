@@ -1,0 +1,19 @@
+Welcome to Learning App's documentation!
+=========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   overview
+   auth
+   dashboard
+   quiz
+   submit-answer
+   lessons
+   progress
+   feedback
+   backend
+   admin-login
+   admin-reports
+   admin-users
